@@ -19,7 +19,7 @@ const DiscountTaxes = () => {
 
   return (
     <div className="p-4 bg-white shadow-md rounded-lg">
-      <h2 className="text-lg font-bold mb-2">Discount & Taxes</h2>
+      <div className="flex justify-center text-lg gap-2">Discount & Taxes</div>
 
       {/* Discount Input */}
       <div className="mb-3">
