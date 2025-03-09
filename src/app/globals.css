@@ -5,17 +5,32 @@
   --foreground: #171717;
 }
 
-@theme inline {
+/* @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden; /* Hide everything */
+  }
+  #bill-print, #bill-print * {
+    visibility: visible; /* Show only the bill */
+  }
+  #bill-print {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
   }
 }
 
