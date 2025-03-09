@@ -1,5 +1,5 @@
 import {useState} from "react"
-import {useBill} from "@/BillContext"
+import {useBill} from "../../BillContext"
 
 const Members = () => {
     const {state, dispatch} = useBill();

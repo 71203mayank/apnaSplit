@@ -1,10 +1,10 @@
 "use client"
 
-import BillSummary from "@/components/billSummary";
-import DiscountTaxes from "@/components/discountTaxes";
-import Dishes from "@/components/dishes";
-import Members from "@/components/members";
-import Split from "@/components/split";
+import BillSummary from "../components/billSummary/index.jsx";
+import DiscountTaxes from "../components/discountTaxes";
+import Dishes from "../components/dishes";
+import Members from "../components/members";
+import Split from "../components/split";
 import { useState } from "react";
 
 export default function Home() {

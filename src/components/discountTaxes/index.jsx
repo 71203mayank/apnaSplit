@@ -1,5 +1,5 @@
 import { useState, useContext } from "react";
-import { BillContext, useBill } from "@/BillContext";
+import { BillContext, useBill } from "../../BillContext";
 
 const DiscountTaxes = () => {
   const { state, dispatch } = useBill()

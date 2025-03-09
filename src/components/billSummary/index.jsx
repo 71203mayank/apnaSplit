@@ -71,7 +71,7 @@
 
 // export default BillSummary;
 
-import { useBill } from "@/BillContext";
+import { useBill } from "../../BillContext";
 
 const BillSummary = () => {
   const { state } = useBill();

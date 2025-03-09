@@ -1,5 +1,5 @@
 import {useState} from "react";
-import {useBill} from "@/BillContext";
+import {useBill} from "../../BillContext";
 
 const Dishes = () => {
     const {state, dispatch} = useBill();
